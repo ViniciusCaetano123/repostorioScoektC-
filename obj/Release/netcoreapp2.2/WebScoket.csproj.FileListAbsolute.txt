@@ -1,0 +1,11 @@
+D:\boque\repostorioScoektC-\bin\Release\netcoreapp2.2\appsettings.Development.json
+D:\boque\repostorioScoektC-\bin\Release\netcoreapp2.2\appsettings.json
+D:\boque\repostorioScoektC-\bin\Release\netcoreapp2.2\Properties\launchSettings.json
+D:\boque\repostorioScoektC-\bin\Release\netcoreapp2.2\WebScoket.deps.json
+D:\boque\repostorioScoektC-\bin\Release\netcoreapp2.2\WebScoket.runtimeconfig.json
+D:\boque\repostorioScoektC-\bin\Release\netcoreapp2.2\WebScoket.runtimeconfig.dev.json
+D:\boque\repostorioScoektC-\bin\Release\netcoreapp2.2\WebScoket.dll
+D:\boque\repostorioScoektC-\obj\Release\netcoreapp2.2\WebScoket.csprojAssemblyReference.cache
+D:\boque\repostorioScoektC-\obj\Release\netcoreapp2.2\WebScoket.AssemblyInfoInputs.cache
+D:\boque\repostorioScoektC-\obj\Release\netcoreapp2.2\WebScoket.AssemblyInfo.cs
+D:\boque\repostorioScoektC-\obj\Release\netcoreapp2.2\WebScoket.genruntimeconfig.cache

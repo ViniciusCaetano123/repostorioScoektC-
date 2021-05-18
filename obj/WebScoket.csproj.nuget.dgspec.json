@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vinicius\\Desktop\\nodeServe\\webScoket\\WebScoket\\WebScoket.csproj": {}
+    "D:\\boque\\repostorioScoektC-\\WebScoket.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vinicius\\Desktop\\nodeServe\\webScoket\\WebScoket\\WebScoket.csproj": {
+    "D:\\boque\\repostorioScoektC-\\WebScoket.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vinicius\\Desktop\\nodeServe\\webScoket\\WebScoket\\WebScoket.csproj",
+        "projectUniqueName": "D:\\boque\\repostorioScoektC-\\WebScoket.csproj",
         "projectName": "WebScoket",
-        "projectPath": "C:\\Users\\Vinicius\\Desktop\\nodeServe\\webScoket\\WebScoket\\WebScoket.csproj",
-        "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vinicius\\Desktop\\nodeServe\\webScoket\\WebScoket\\obj\\",
+        "projectPath": "D:\\boque\\repostorioScoektC-\\WebScoket.csproj",
+        "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
+        "outputPath": "D:\\boque\\repostorioScoektC-\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Leandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +40,32 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.12.3, )"
+            },
+            "Microsoft.AspNet.SignalR": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.12.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "json2": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.114\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
