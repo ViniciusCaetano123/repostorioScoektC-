@@ -40,37 +40,17 @@ namespace WebScoket
                 cliente.AcessLimit = false;
                 return cliente;
             }
-           /* if (!String.IsNullOrEmpty(cli.Hash))
-            {
-                if (clienteDao.QuantHash(cliente) == 0)
-                {
-                    if (clienteDao.QuantCli(cliente) >= 1)
-                    {
-                        cliente.AcessLimit = true;
-                        return cliente;
-                    }
-                    cliente = clienteDao.InserirCli(cliente);
-                    cliente.AcessLimit = false;
-                    return cliente;
-                }
-            }
             else
             {
-                if (clienteDao.QuantHash(cliente) == 0)
+                if (clienteDao.QuantCli(cliente) >= 1)
                 {
-                    if (clienteDao.QuantCli(cliente) >= 1)
-                    {
-                        cliente.AcessLimit = true;
-                        return cliente;
-                    }
-                    cliente.Hash = cli.GerarHash(cli.IdCliente);
-                    cliente = clienteDao.InserirCli(cliente);
-                    cliente.AcessLimit = false;
+                    cliente.AcessLimit = true;
                     return cliente;
                 }
-            }*/
-            cliente.AcessLimit = false;
-            return cliente;
+                cliente.AcessLimit = false;
+                return cliente;
+            }          
+            
 
         }
     }
